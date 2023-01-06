@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles/styles.css" rel="stylesheet" type="text/css" />
+
+    <title>Encriptador</title>
+  </head>
+
+  <body>
+    <header>
+      <img src="styles/images/Frame 6.png" alt="" />
+    </header>
+    <section class="home">
+      <div class="in-flex">
+        <input
+          type="text"
+          id="textoEncriptado"
+          placeholder="Ingrese el texto aqui"
+        />
+        <p class="advertencia">&#9888; Solo letras minúsculas y sin tildes.</p>
+        <div class="buttons">
+          <button id="btnEncriptado" class="btn">Encriptar</button>
+          <button id="btnDesencriptado" class="btn">Desencriptar</button>
+        </div>
+      </div>
+
+      <div class="in-flex">
+        <div class="area">
+          <textarea
+            name="resusaltado"
+            id="textoDesencriptado"
+            cols="50"
+            rows="12"
+          ></textarea>
+          <button type="button" id="btnCopiar">Copiar</button>
+        </div>
+      </div>
+    </section>
+  </body>
+
+  <script src="./script.js"></script>
+</html>
